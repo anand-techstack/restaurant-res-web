@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Annachi Burger</title>
+    <link rel="icon" href="image/food2.png" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="overall-container">
+      <nav class="navbar">
+        <div class="nav-logo">
+          <h1>Annachi</h1>
+        </div>
+        <ul class="nav-links-container">
+          <li><a href="#section-banner" class="nav-links">home</a></li>
+          <li><a href="#section-about" class="nav-links">about</a></li>
+          <li><a href="#section-menu" class="nav-links">menu</a></li>
+          <li><a href="#section-service" class="nav-links">service</a></li>
+          <li><a href="#section-contact" class="nav-links">contact</a></li>
+        </ul>
+        <div class="menu-container">
+          <i class="fa-solid fa-bars" onclick="show()"></i>
+        </div>
+      </nav>
+
+      <!-- Side Navigation -->
+      <div class="side-nav-container" id="nav-side-bar">
+        <div class="close-container">
+          <i class="fa-solid fa-xmark" onclick="cancel()"></i>
+        </div>
+        <ul class="nav-side-links-container">
+          <li><a href="#section-banner" class="nav-side-links">home</a></li>
+          <li><a href="#section-about" class="nav-side-links">about</a></li>
+          <li><a href="#section-menu" class="nav-side-links">menu</a></li>
+          <li><a href="#section-service" class="nav-side-links">service</a></li>
+          <li><a href="#section-contact" class="nav-side-links">contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Banner Section -->
+      <div class="bannersection-container" id="section-banner">
+        <div class="banner-element-container">
+          <div class="text-container">
+            <h1>Hotel Annachi</h1>
+            <p>
+              Food is <br />
+              the most precious gift
+            </p>
+            <button>Today's Menu</button>
+          </div>
+          <div class="image-container">
+            <img src="image/home.png" alt="Delicious Food" />
+          </div>
+        </div>
+      </div>
+      
+      <!-- About Section -->
+      <div class="aboutsection-container" id="section-about">
+        <div class="about-element-container">
+          <div class="about-image-container">
+            <img src="image/about.png" alt="About Annachi" />
+          </div>
+          <div class="about-text-container">
+            <div class="text-element">
+              <h3>About</h3>
+              <h1>We Speak the Language of Good Food</h1>
+              <p>
+                At Hotel Annachi, we believe that every meal should be a celebration.
+                Our passion is crafting flavorful dishes that bring joy to every table.
+                Experience tradition and taste like never before!
+              </p>
+              <button>Learn More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Menu Section -->
+      <div class="menusection-container" id="section-menu">
+        <div class="menu-text-container">
+          <h3>Food Menu</h3>
+          <h1>Fresh & Delicious Every Time</h1>
+        </div>
+        <div class="menu-layer">
+          <div class="menu-card-container">
+            <div class="menu-card-1">
+              <div>
+                <img src="image/food1.png" alt="Chicken Burger" />
+                <h3>Chicken Burger</h3>
+                <p>Juicy grilled chicken with spicy mayo</p>
+                <p>$2</p>
+              </div>
+            </div>
+            <div class="menu-card-1">
+              <div>
+                <img src="image/food2.png" alt="Veggie Delight" />
+                <h3>Veggie Delight</h3>
+                <p>Fresh veggies layered with cheese</p>
+                <p>$2</p>
+              </div>
+            </div>
+            <div class="menu-card-1">
+              <div>
+                <img src="image/food3.png" alt="Annachi Special" />
+                <h3>Annachi Special</h3>
+                <p>Signature burger with secret sauce</p>
+                <p>$2</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Service Section -->
+      <div class="service-section-container" id="section-service">
+        <div class="service-text-container">
+          <h1>We Serve With Love and Quality</h1>
+        </div>
+        <div class="service-layer">
+          <div class="service-card-container">
+            <div class="service-card-1">
+              <div>
+                <img src="image/s1.png" alt="Order" />
+                <h3>Easy Ordering</h3>
+                <p>
+                  Choose your favorite dishes easily from our menu and place your order
+                  in just a few clicks.
+                </p>
+              </div>
+            </div>
+            <div class="service-card-1">
+              <div>
+                <img src="image/s2.png" alt="Shipping" />
+                <h3>Fast Shipping</h3>
+                <p>
+                  Our team ensures your food is packed fresh and delivered hot and quick
+                  to your doorstep.
+                </p>
+              </div>
+            </div>
+            <div class="service-card-1">
+              <div>
+                <img src="image/s3.png" alt="Delivery" />
+                <h3>Doorstep Delivery</h3>
+                <p>
+                  Enjoy your favorite meals from Annachi at the comfort of your home with
+                  our speedy delivery service.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Contact Section -->
+      <div class="contact-section" id="section-contact">
+        <div class="contact-container">
+          <h1>
+            We Make Delicious <br />
+            Food Everyday
+          </h1>
+          <button>Let's Talk</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
+
