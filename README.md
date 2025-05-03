@@ -1,6 +1,6 @@
 # ♨️🔥🍳 Restaurant Website
 
-A clean and responsive **restaurant website** built using **HTML5** and **CSS3**. This is a simple front-end project for showcasing restaurant information, menu, and design.
+A clean and responsive **restaurant website** built using **HTML5** **CSS3** and **Javascript**. This is a simple front-end project for showcasing restaurant information, menu, and design.
 
 ---
 
@@ -18,7 +18,7 @@ A clean and responsive **restaurant website** built using **HTML5** and **CSS3**
 
 - **HTML5**
 - **CSS3**
-
+- **javascript**
 ---
 
 ## 🚀 Live Demo
